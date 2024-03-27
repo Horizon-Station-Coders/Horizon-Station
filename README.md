@@ -20,13 +20,13 @@ The [docs site](https://docs.spacestation14.io/) has documentation on SS14s cont
 
 ## Contributing
 
-We are happy to accept contributions from anybody. Get in Discord if you want to help. We've got a [list of issues](https://github.com/Horizon-station-coders/Horizon-station/issues) that need to be done and anybody can pick them up. Don't be afraid to ask for help either!
+We are happy to accept contributions from anybody. Get in Discord if you want to help. We've got a [list of issues](https://github.com/Horizon-Station-Coders/Horizon-station/issues) that need to be done and anybody can pick them up. Don't be afraid to ask for help either!
 
 <!-- figure this out
 
 We are currently accepting translations of the game on our main repository. If you would like to translate the game into another language check the #localization channel in our-->
 
-If you make any contributions, please make sure to read the markers section in [MARKERS.md](https://github.com/Horizon-station-coders/horizon-station/blob/master/MARKERS.md)
+If you make any contributions, please make sure to read the markers section in [MARKERS.md](https://github.com/Horizon-Station-Coders/Horizon-station/blob/master/MARKERS.md)
 Any changes made to files belonging to our upstream should be properly marked in accordance to what is specified there.
 
 ## Building

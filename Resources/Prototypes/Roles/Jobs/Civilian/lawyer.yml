@@ -22,7 +22,7 @@
   id: LawyerGear
   equipment:
     jumpsuit: ClothingUniformJumpsuitLawyerBlack  # TODO change jumpsuit to randomiser of the 4 variants # ignoring this since loadouts are gonna be out soon
-    back: ClothingBackpackLawyerFilled 
+    back: ClothingBackpackLawyerFilled
     shoes: ClothingShoesBootsLaceup
     id: LawyerPDA
     ears: ClothingHeadsetSecurity

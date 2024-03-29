@@ -17,24 +17,25 @@
   - Bartender
   - Borg
   - Botanist
-  - Boxer
-  # - Chaplain # DeltaV - Move Chaplain into Epistemics
+  #- Boxer
+  - Chaplain # DeltaV - Move Chaplain into Epistemics # Horizon - Move chaplain back into civillian
   - Chef
-  - Clown
+  #- Clown # Horizon - Entertainer
   - HeadOfPersonnel
   - Janitor
-  - Lawyer
-  - Librarian
-  - Mime
-  - Musician
+  - Lawyer # Horizon - IAA internal name
+  #- Librarian # Horizon
+  #- #Mime # Horizon - Entertainer
+  - Musician # Horizon - Entertainer internal name
   - Passenger
   - Reporter
   - Visitor
-  - Zookeeper
-  - ServiceWorker
-  - MartialArtist # Nyanotrasen - MartialArtist, see Resources/Prototypes/Nyanotrasen/Roles/Jobs/Wildcards/martialartist.yml
-  - Prisoner # Nyanotrasen - Prisoner, see Resources/Prototypes/Nyanotrasen/Roles/Jobs/Wildcards/prisoner.yml
-  - Gladiator # Nyanotrasen - Gladiator, see Resources/Prototypes/Nyanotrasen/Roles/Jobs/Wildcards/gladiator.yml
+  # Horizon: Removed all these
+  #- Zookeeper # Horizon - rolled into botanist
+  #- ServiceWorker
+  #- MartialArtist # Nyanotrasen - MartialArtist, see Resources/Prototypes/Nyanotrasen/Roles/Jobs/Wildcards/martialartist.yml
+  #- Prisoner # Nyanotrasen - Prisoner, see Resources/Prototypes/Nyanotrasen/Roles/Jobs/Wildcards/prisoner.yml
+  #- Gladiator # Nyanotrasen - Gladiator, see Resources/Prototypes/Nyanotrasen/Roles/Jobs/Wildcards/gladiator.yml
 
 - type: department
   id: Command
@@ -89,8 +90,8 @@
   - SeniorOfficer
   - Detective
   - Warden
-  - PrisonGuard # Nyanotrasen - PrisonGuard, see Resources/Prototypes/Nyanotrasen/Roles/Jobs/Security/prisonguard.yml
-  - Brigmedic # DeltaV - Brigmedic, see Resources/Prototypes/DeltaV/Roles/Jobs/Security/brigmedic.yml
+  #- PrisonGuard # Nyanotrasen - PrisonGuard, see Resources/Prototypes/Nyanotrasen/Roles/Jobs/Security/prisonguard.yml # Horizon - Removed
+  #- Brigmedic # DeltaV - Brigmedic, see Resources/Prototypes/DeltaV/Roles/Jobs/Security/brigmedic.yml # Horizon - Removed, encourages less department crossplay
 
 - type: department
   id: Epistemics # DeltaV - Epistemics Department replacing Science
@@ -101,8 +102,9 @@
   - SeniorResearcher
   - Scientist
   - ResearchAssistant
-  - Chaplain # DeltaV - Move Chaplain into Epistemics
+  #- Chaplain # DeltaV - Move Chaplain into Epistemics # Horizon - get your ass out of there!!!!
   - ForensicMantis # Nyanotrasen - ForensicMantis, see Resources/Prototypes/Nyanotrasen/Roles/Jobs/Epistemics/forensicmantis.yml
+  # Horizon - ^ ACS internal name
 
 - type: department
   id: Specific
@@ -110,12 +112,14 @@
   color: "#9FED58"
   weight: 10
   roles:
-  - Boxer
+  # Horizon - Removed commented out roles
+  # we're going to want these in every map anyway at some point
+  #- Boxer
   - Reporter
-  - Zookeeper
+  #- Zookeeper
   - Psychologist
-  - MartialArtist # Nyanotrasen - MartialArtist, see Resources/Prototypes/Nyanotrasen/Roles/Jobs/Wildcards/martialartist.yml
-  - Gladiator # Nyanotrasen - Gladiator, see Resources/Prototypes/Nyanotrasen/Roles/Jobs/Wildcards/gladiator.yml
-  - Prisoner # Nyanotrasen - Prisoner, see Resrouces/Prototypes/Nyanotrasen/Roles/Jobs/Wildcards/prisoner.yml
-  - Brigmedic # DeltaV - Corpsman, see Resources/Prototypes/DeltaV/Roles/Jobs/Security/brigmedic.yml
+  #- MartialArtist # Nyanotrasen - MartialArtist, see Resources/Prototypes/Nyanotrasen/Roles/Jobs/Wildcards/martialartist.yml
+  #- Gladiator # Nyanotrasen - Gladiator, see Resources/Prototypes/Nyanotrasen/Roles/Jobs/Wildcards/gladiator.yml
+  #- Prisoner # Nyanotrasen - Prisoner, see Resrouces/Prototypes/Nyanotrasen/Roles/Jobs/Wildcards/prisoner.yml
+  #- Brigmedic # DeltaV - Corpsman, see Resources/Prototypes/DeltaV/Roles/Jobs/Security/brigmedic.yml
   primary: false

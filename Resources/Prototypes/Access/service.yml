@@ -42,10 +42,10 @@
   - Theatre
   - Chapel
   - Lawyer
-  - Boxer # DeltaV - Add Boxer access
-  - Clown # DeltaV - Add Clown access
-  - Library # DeltaV - Add Library access
-  - Mime # DeltaV - Add Mime access
-  - Musician # DeltaV - Add Musician access
+  #- Boxer # DeltaV - Add Boxer access # Horizon - Remove boxer access again
+  #- Clown # DeltaV - Add Clown access # Horizon - Remove clown access again
+  #- Library # DeltaV - Add Library access # Horizon - Remove library access
+  #- Mime # DeltaV - Add Mime access # Horizon - Remove mime access again
+  #- Musician # DeltaV - Add Musician access # Horizon - Remove musician access again
   - Reporter # DeltaV - Add Reporter access
   - Zookeeper # DeltaV - Add Zookeeper access

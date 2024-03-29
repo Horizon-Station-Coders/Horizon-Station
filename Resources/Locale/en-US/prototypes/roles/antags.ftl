@@ -1,5 +1,5 @@
-﻿roles-antag-syndicate-agent-name = Syndicate agent
-roles-antag-syndicate-agent-objective = Complete your objectives without being caught.
+﻿roles-antag-syndicate-agent-name = Traitor
+roles-antag-syndicate-agent-objective = Sabotage the station. Commit espionage. Take out anyone you need to. Get the job done.
 
 roles-antag-initial-infected-name = Initial Infected
 roles-antag-initial-infected-objective = Once you turn, infect as many other crew members as possible.
@@ -13,14 +13,14 @@ roles-antag-suspicion-innocent-objective = Discover and eliminate all traitors.
 roles-antag-suspicion-suspect-name = Suspect
 roles-antag-suspicion-suspect-objective = Kill the innocents.
 
-roles-antag-nuclear-operative-commander-name = Nuclear operative commander
-roles-antag-nuclear-operative-commander-objective = Lead your team to the destruction of the station.
+roles-antag-nuclear-operative-commander-name = Mercenary commander
+roles-antag-nuclear-operative-commander-objective = Be the only armed thug with your head screwed on straight.
 
-roles-antag-nuclear-operative-agent-name = Nuclear operative agent
-roles-antag-nuclear-operative-agent-objective = Like default operative, the team's treatment will have priority.
+roles-antag-nuclear-operative-agent-name = Mercenary medic
+roles-antag-nuclear-operative-agent-objective = Perform combat first aid on your fellow armed thugs.
 
-roles-antag-nuclear-operative-name = Nuclear operative
-roles-antag-nuclear-operative-objective = Find the nuke disk and blow up the station.
+roles-antag-nuclear-operative-name = Mercenary
+roles-antag-nuclear-operative-objective = Terrorize the station along with your fellow armed thugs. Spend half of your planning time thinking of a gimmick.
 
 roles-antag-subverted-silicon-name = Subverted silicon
 roles-antag-subverted-silicon-objective = Follow your new laws and do bad unto the station.

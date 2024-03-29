@@ -10,6 +10,7 @@
   - Service
   - Maintenance
   - Hydroponics
+  - Zookeeper
   extendedAccess:
   - Kitchen
   - Bar

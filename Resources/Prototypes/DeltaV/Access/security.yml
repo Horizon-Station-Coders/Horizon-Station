@@ -1,3 +1,4 @@
-- type: accessLevel
-  id: Corpsman
-  name: id-card-access-level-corpsman
+# Horizon
+#- type: accessLevel
+#  id: Corpsman
+#  name: id-card-access-level-corpsman

@@ -20,7 +20,8 @@
   icon: "JobIconChiefEngineer"
   requireAdminNotify: true
   supervisors: job-supervisors-captain
-  canBeAntag: false
+  AntagAdvantage: 6 # horizon - holy hell you get so many ways to cause shit
+  canBeAntag: true # horizon - mindshield removal project
   access:
   - Maintenance
   - Engineering
@@ -30,8 +31,8 @@
   - Atmospherics
   - Cryogenics
   special:
-  - !type:AddImplantSpecial
-    implants: [ MindShieldImplant ]
+  #- !type:AddImplantSpecial # horizon - mindshield removal project
+  #  implants: [ MindShieldImplant ]
   - !type:AddComponentSpecial
     components:
       - type: CommandStaff

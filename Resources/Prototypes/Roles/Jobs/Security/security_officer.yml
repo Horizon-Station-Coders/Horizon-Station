@@ -10,7 +10,8 @@
   startingGear: SecurityOfficerGear
   icon: "JobIconSecurityOfficer"
   supervisors: job-supervisors-hos
-  canBeAntag: false
+  antagAdvantage: 3
+  canBeAntag: true # horizon mindshield removal project
   access:
   - Security
   #- Brig # Delta V: Removed
@@ -18,9 +19,9 @@
   - Service
   - External
   - Cryogenics
-  special:
-  - !type:AddImplantSpecial
-    implants: [ MindShieldImplant ]
+#  special:
+#  - !type:AddImplantSpecial
+#    implants: [ MindShieldImplant ]
 
 - type: startingGear
   id: SecurityOfficerGear

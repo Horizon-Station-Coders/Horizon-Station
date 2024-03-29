@@ -21,7 +21,8 @@
   icon: "JobIconHeadOfSecurity"
   requireAdminNotify: true
   supervisors: job-supervisors-captain
-  canBeAntag: false
+  antagAdvantage: 6 # horizon
+  canBeAntag: true # horizon
   access:
   - HeadOfSecurity
   - Command
@@ -35,8 +36,8 @@
   - Corpsman # DeltaV - added Corpsman access
   - Cryogenics
   special:
-  - !type:AddImplantSpecial
-    implants: [ MindShieldImplant ]
+  #- !type:AddImplantSpecial
+  #  implants: [ MindShieldImplant ]
   - !type:AddComponentSpecial
     components:
       - type: CommandStaff

@@ -14,7 +14,8 @@
   startingGear: WardenGear
   icon: "JobIconWarden"
   supervisors: job-supervisors-hos
-  canBeAntag: false
+  antagAdvantage: 3 # horizon - mindshield removal project
+  canBeAntag: true
   access:
   - Security
   #- Brig # Delta V: Removed
@@ -24,9 +25,9 @@
   - External
   - Detective
   - Cryogenics
-  special:
-  - !type:AddImplantSpecial
-    implants: [ MindShieldImplant ]
+  #special:
+  #- !type:AddImplantSpecial
+  #  implants: [ MindShieldImplant ]
 
 - type: startingGear
   id: WardenGear

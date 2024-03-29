@@ -10,16 +10,17 @@
   startingGear: DetectiveGear
   icon: "JobIconDetective"
   supervisors: job-supervisors-hos
-  canBeAntag: false
+  AntagAdvantage: 3 # horizon - mindshield removal project
+  canBeAntag: true
   access:
   - Security
   #- Brig # Delta V: Removed
   - Maintenance
   - Service
   - Detective
-  special:
-  - !type:AddImplantSpecial
-    implants: [ MindShieldImplant ]
+  #special:
+  #- !type:AddImplantSpecial # part 2 of horizon mindshield removal project
+  #  implants: [ MindShieldImplant ]
 
 - type: startingGear
   id: DetectiveGear

@@ -15,7 +15,7 @@
   icon: "JobIconResearchDirector"
   requireAdminNotify: true
   supervisors: job-supervisors-captain
-  canBeAntag: false
+  canBeAntag: true # horizon mindshield removal project
   access:
   - Research
   - Command
@@ -27,11 +27,11 @@
   special: # Nyanotrasen - Mystagogue can use the Bible
   - !type:AddComponentSpecial
     components:
-    - type: BibleUser # Nyano - Lets them heal with bibles
+    # - type: BibleUser # Nyano - Lets them heal with bibles # horizon - no
     - type: Psionic # Nyano - They start with telepathic chat
     - type: DispelPower # Nyano - They get the Dispel psionic power on spawn
-  - !type:AddImplantSpecial
-    implants: [ MindShieldImplant ]
+  #- !type:AddImplantSpecial # horizon mindshield removal project
+  #  implants: [ MindShieldImplant ]
   - !type:AddComponentSpecial
     components:
       - type: CommandStaff

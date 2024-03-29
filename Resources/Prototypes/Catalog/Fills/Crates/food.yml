@@ -141,8 +141,8 @@
       amount: 2
     - id: DrinkLemonLimeCan
       amount: 2
-    - id: DrinkFourteenLokoCan
-      amount: 2
+ #   - id: DrinkFourteenLokoCan
+ #     amount: 2
 
 - type: entity
   id: CrateFoodSoftdrinksLarge

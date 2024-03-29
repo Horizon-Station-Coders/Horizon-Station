@@ -67,7 +67,7 @@
     # rare armor
     ClothingOuterArmorARC: 1.0 # DeltaV - ClothingOuterArmorRiot replaced in favour of ARC suit
     # rare chemicals
-    CognizineChemistryBottle: 1.0
+#    CognizineChemistryBottle: 1.0
     OmnizineChemistryBottle: 1.0
     # money
     SpaceCash2500: 1.0

@@ -36,7 +36,7 @@ public sealed partial class CardboardBoxComponent : Component
 	/// </summary>
     [ViewVariables(VVAccess.ReadWrite)]
 	[DataField("quiet")]
-	public bool Quiet = false;
+	public bool Quiet = true; // horizon - no fun allowed
 
     /// <summary>
     /// How far should the box opening effect go?

@@ -273,17 +273,17 @@
     Carbon: 2
     Oxygen: 1
 
-- type: reaction
-  id: FourteenLoko
-  reactants:
-    Coffee:
-      amount: 1
-    JuiceLime:
-      amount: 1
-    Vodka:
-      amount: 1
-  products:
-    FourteenLoko: 3
+#- type: reaction # horizon - disabling the recipe & buying it, don't want it accessible
+#  id: FourteenLoko
+#  reactants:
+#    Coffee:
+#      amount: 1
+#    JuiceLime:
+#      amount: 1
+#    Vodka:
+#      amount: 1
+#  products:
+#    FourteenLoko: 3
 
 - type: reaction
   id: GargleBlaster

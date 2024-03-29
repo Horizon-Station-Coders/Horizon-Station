@@ -11,6 +11,7 @@
   icon: "JobIconDetective"
   supervisors: job-supervisors-hos
   AntagAdvantage: 3 # horizon - mindshield removal project
+  canBeAntag: true
   access:
   - Security
   #- Brig # Delta V: Removed
@@ -27,7 +28,7 @@
     jumpsuit: ClothingUniformJumpsuitDetective
     back: ClothingBackpackSecurityFilledDetective
     shoes: ClothingShoesBootsCombatFilled
-    eyes: ClothingEyesGlassesSecurity
+    eyes: ClothingEyesGlassesSunglasses
     head: ClothingHeadHatFedoraBrown
     outerClothing: ClothingOuterVestDetective
     id: DetectivePDA

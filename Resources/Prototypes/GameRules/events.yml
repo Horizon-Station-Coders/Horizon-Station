@@ -67,31 +67,33 @@
     duration: 1
   - type: ClericalErrorRule
 
-- type: entity
-  parent: BaseGameRule
-  id: ClosetSkeleton
-  noSpawn: true
-  components:
-  - type: StationEvent
-    weight: 10
-    duration: 1
-    minimumPlayers: 10
-  - type: RandomEntityStorageSpawnRule
-    prototype: MobSkeletonCloset
+# hell no - horizon
+#- type: entity
+#  parent: BaseGameRule
+#  id: ClosetSkeleton
+#  noSpawn: true
+#  components:
+#  - type: StationEvent
+#    weight: 10
+#    duration: 1
+#    minimumPlayers: 10
+#  - type: RandomEntityStorageSpawnRule
+#    prototype: MobSkeletonCloset
 
-- type: entity
-  parent: BaseGameRule
-  id: DragonSpawn
-  noSpawn: true
-  components:
-  - type: StationEvent
-    weight: 1 # DeltaV - was 5
-    duration: 1
-    earliestStart: 45
-    reoccurrenceDelay: 60
-    minimumPlayers: 20
-  - type: RandomSpawnRule
-    prototype: SpawnPointGhostDragon
+# same here - horizon
+#- type: entity
+#  parent: BaseGameRule
+#  id: DragonSpawn
+#  noSpawn: true
+#  components:
+#  - type: StationEvent
+#    weight: 1 # DeltaV - was 5
+#    duration: 1
+#    earliestStart: 45
+#    reoccurrenceDelay: 60
+#    minimumPlayers: 20
+#  - type: RandomSpawnRule
+#    prototype: SpawnPointGhostDragon
 
 - type: entity
   parent: BaseGameRule
@@ -293,7 +295,7 @@
 #     duration: 1
 #     earliestStart: 30
 #     minimumPlayers: 20
-#   - type: RandomSpawnRule
+#  - type: RandomSpawnRule
 #    prototype: SpawnPointGhostTerminator
 
 - type: entity
@@ -396,22 +398,22 @@
 #    - id: MobClownSpider
 #      prob: 0.05
 
-- type: entity
-  id: ZombieOutbreak
-  parent: BaseGameRule
-  noSpawn: true
-  components:
-  - type: StationEvent
-    earliestStart: 90 # DeltaV - was 50
-    minimumPlayers: 15
-    weight: 2.5 # DeltaV - was 5
-    duration: 1
-  - type: ZombieRule
-    minStartDelay: 0 #let them know immediately
-    maxStartDelay: 10
-    maxInitialInfected: 3 #fewer zombies
-    minInitialInfectedGrace: 300 #less time to prepare
-    maxInitialInfectedGrace: 450
+#- type: entity  # horizon - disabled, too low roleplay
+#  id: ZombieOutbreak
+#  parent: BaseGameRule
+#  noSpawn: true
+#  components:
+#  - type: StationEvent
+#    earliestStart: 90 # DeltaV - was 50
+#    minimumPlayers: 15
+#    weight: 2.5 # DeltaV - was 5
+#    duration: 1
+#  - type: ZombieRule
+#    minStartDelay: 0 #let them know immediately
+#    maxStartDelay: 10
+#    maxInitialInfected: 3 #fewer zombies
+#    minInitialInfectedGrace: 300 #less time to prepare
+#    maxInitialInfectedGrace: 450
 
 - type: entity
   id: LoneOpsSpawn

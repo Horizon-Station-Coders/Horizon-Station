@@ -87,14 +87,14 @@
   components:
   - type: TraitorRule
 
-- type: entity
-  id: Revolutionary
-  parent: BaseGameRule
-  noSpawn: true
-  components:
-  - type: RevolutionaryRule
-    maxHeadRevs: 2 # DeltaV
-    playersPerHeadRev: 30 # DeltaV - need highpop readied up for multiple headrevs
+#- type: entity # too lowRP
+#  id: Revolutionary
+#  parent: BaseGameRule
+#  noSpawn: true
+#  components:
+#  - type: RevolutionaryRule
+#    maxHeadRevs: 2 # DeltaV
+#    playersPerHeadRev: 30 # DeltaV - need highpop readied up for multiple headrevs
 
 - type: entity
   id: Sandbox
@@ -110,12 +110,12 @@
   components:
   - type: SecretRule
 
-- type: entity
-  id: Zombie
-  parent: BaseGameRule
-  noSpawn: true
-  components:
-  - type: ZombieRule
+#- type: entity # horizon - do not like zombie
+#  id: Zombie
+#  parent: BaseGameRule
+#  noSpawn: true
+#  components:
+#  - type: ZombieRule
 
 # event schedulers
 - type: entity

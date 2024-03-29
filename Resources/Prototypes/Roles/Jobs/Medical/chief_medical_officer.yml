@@ -23,7 +23,7 @@
   icon: "JobIconChiefMedicalOfficer"
   requireAdminNotify: true
   supervisors: job-supervisors-captain
-  canBeAntag: false
+  canBeAntag: true # mindshield removal project
   access:
   - Medical
   - Command
@@ -35,8 +35,8 @@
   - Psychologist # DeltaV - Add Psychologist access
   - Cryogenics
   special:
-  - !type:AddImplantSpecial
-    implants: [ MindShieldImplant ]
+  #- !type:AddImplantSpecial
+  #  implants: [ MindShieldImplant ]
   - !type:AddComponentSpecial
     components:
       - type: CommandStaff

@@ -1318,10 +1318,10 @@
       layers:
         - state: icon
           shader: unshaded
-    - type: WeaponRandom
-      damageBonus:
-          types:
-              Blunt: 1000
+#    - type: WeaponRandom # no randomly gibbing people on HRP - horizon
+#      damageBonus:
+#          types:
+#              Blunt: 1000
     - type: StaminaDamageOnHit
       damage: 8
     - type: Item

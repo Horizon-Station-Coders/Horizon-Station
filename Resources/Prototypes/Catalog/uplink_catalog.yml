@@ -1547,8 +1547,9 @@
   conditions:
   - !type:BuyerJobCondition
     whitelist:
-    - Mime
-    - Clown
+    #- Mime # Horizon
+    #- Clown # Horizon
+    - Musician
 
 - type: listing
   id: uplinkBananaPeelExplosive
@@ -1563,7 +1564,8 @@
   conditions:
   - !type:BuyerJobCondition
     whitelist:
-    - Clown
+    #- Clown # Horizon
+    - Musician
 
 - type: listing
   id: UplinkClusterBananaPeel
@@ -1577,7 +1579,8 @@
   conditions:
   - !type:BuyerJobCondition
     whitelist:
-    - Clown
+    #- Clown # Horizon
+    - Musician
 
 - type: listing
   id: UplinkHoloclownKit
@@ -1592,7 +1595,8 @@
   conditions:
   - !type:BuyerJobCondition
     whitelist:
-    - Clown
+    #- Clown # Horizon
+    - Musician
 
 - type: listing
   id: uplinkHotPotato
@@ -1608,8 +1612,9 @@
     whitelist:
     - Chef
     - Botanist
-    - Clown
-    - Mime
+    #- Clown # Horizon
+    #- Mime # Horizon
+    - Musician
 
 - type: listing
   id: UplinkChimpUpgradeKit

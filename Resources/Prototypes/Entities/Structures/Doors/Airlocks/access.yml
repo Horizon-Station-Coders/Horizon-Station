@@ -379,9 +379,9 @@
   parent: Airlock
   id: AirlockBoxerLocked
   suffix: Boxer, Locked
-  components:
-  - type: AccessReader
-    access: [["Boxer"]]
+  #components:
+  #- type: AccessReader
+  #  access: [["Boxer"]] # Horizon
 
 - type: entity
   parent: Airlock
@@ -389,7 +389,7 @@
   suffix: Clown, Locked
   components:
   - type: AccessReader
-    access: [["Clown"]]
+    access: [["Theatre"]] # Horizon
 
 - type: entity
   parent: Airlock
@@ -397,7 +397,7 @@
   suffix: Mime, Locked
   components:
   - type: AccessReader
-    access: [["Mime"]]
+    access: [["Theatre"]] # Horizon
 
 - type: entity
   parent: Airlock
@@ -405,7 +405,7 @@
   suffix: Musician, Locked
   components:
   - type: AccessReader
-    access: [["Musician"]]
+    access: [["Theatre"]] # Horizon
 
 - type: entity
   parent: Airlock
@@ -419,9 +419,9 @@
   parent: Airlock
   id: AirlockLibraryLocked
   suffix: Library, Locked
-  components:
-  - type: AccessReader
-    access: [["Library"]]
+  #components:
+  #- type: AccessReader
+  #  access: [["Library"]] # Horizon
 
 - type: entity
   parent: Airlock
@@ -793,9 +793,9 @@
   parent: AirlockGlass
   id: AirlockBoxerGlassLocked
   suffix: Boxer, Locked
-  components:
-  - type: AccessReader
-    access: [["Boxer"]]
+  #components:
+  #- type: AccessReader
+  #  access: [["Boxer"]] # Horizon
 
 - type: entity
   parent: AirlockGlass
@@ -803,7 +803,7 @@
   suffix: Clown, Locked
   components:
   - type: AccessReader
-    access: [["Clown"]]
+    access: [["Theatre"]] # Horizon
 
 - type: entity
   parent: AirlockGlass
@@ -811,7 +811,7 @@
   suffix: Mime, Locked
   components:
   - type: AccessReader
-    access: [["Mime"]]
+    access: [["Theatre"]] # Horizon
 
 - type: entity
   parent: AirlockGlass
@@ -819,7 +819,7 @@
   suffix: Musician, Locked
   components:
   - type: AccessReader
-    access: [["Musician"]]
+    access: [["Theatre"]] # Horizon
 
 - type: entity
   parent: AirlockGlass
@@ -833,9 +833,9 @@
   parent: AirlockGlass
   id: AirlockLibraryGlassLocked
   suffix: Library, Locked
-  components:
-  - type: AccessReader
-    access: [["Library"]]
+  #components:
+  #- type: AccessReader
+  #  access: [["Library"]] # Horizon
 
 - type: entity
   parent: AirlockGlass
@@ -1108,9 +1108,9 @@
   parent: AirlockMaint
   id: AirlockMaintBoxerLocked
   suffix: Boxer, Locked
-  components:
-  - type: AccessReader
-    access: [["Boxer"]]
+  #components:
+  #- type: AccessReader
+  #  access: [["Boxer"]] # Horizon
 
 - type: entity
   parent: AirlockMaint
@@ -1118,7 +1118,7 @@
   suffix: Clown, Locked
   components:
   - type: AccessReader
-    access: [["Clown"]]
+    access: [["Theatre"]] # Horizon
 
 - type: entity
   parent: AirlockMaint
@@ -1126,7 +1126,7 @@
   suffix: Mime, Locked
   components:
   - type: AccessReader
-    access: [["Mime"]]
+    access: [["Theatre"]] # Horizon
 
 - type: entity
   parent: AirlockMaint
@@ -1134,7 +1134,7 @@
   suffix: Musician, Locked
   components:
   - type: AccessReader
-    access: [["Musician"]]
+    access: [["Theatre"]] # Horizon
 
 - type: entity
   parent: AirlockMaint
@@ -1148,9 +1148,9 @@
   parent: AirlockMaint
   id: AirlockMaintLibraryLocked
   suffix: Library, Locked
-  components:
-  - type: AccessReader
-    access: [["Library"]]
+  #components:
+  #- type: AccessReader
+  #  access: [["Library"]] # Horizon
 
 - type: entity
   parent: AirlockMaint

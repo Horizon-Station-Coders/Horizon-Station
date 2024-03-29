@@ -10,9 +10,9 @@
   icon: "JobIconMusician"
   supervisors: job-supervisors-hire
   access:
-  - Maintenance # TODO Remove maint access for all gimmick jobs once access work is completed
+  - Maintenance # TODO Remove maint access for all gimmick jobs once access work is completed # Horizon - no lmao
   - Theatre
-  - Musician # DeltaV - Add Musician access
+  #- Musician # DeltaV - Add Musician access # Horizon - Remove musician access
   special:
   - !type:GiveItemOnHolidaySpecial
     holiday: MikuDay

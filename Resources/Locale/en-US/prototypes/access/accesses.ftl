@@ -38,7 +38,7 @@ id-card-access-level-mime = Mime
 id-card-access-level-musician = Musician
 id-card-access-level-theatre = Theatre
 id-card-access-level-chapel = Chapel
-id-card-access-level-lawyer = Lawyer
+id-card-access-level-lawyer = IAA
 id-card-access-level-reporter = Reporter
 id-card-access-level-zookeeper = Zookeeper
 

@@ -1047,7 +1047,7 @@ namespace Content.Shared.CCVar
         ///     Divisor from maxForce (pressureDifference * 2.25f) to force applied on objects.
         /// </summary>
         public static readonly CVarDef<float> SpaceWindPressureForceDivisorPush =
-            CVarDef.Create("atmos.space_wind_pressure_force_divisor_push", 2500f, CVar.SERVERONLY);
+            CVarDef.Create("atmos.space_wind_pressure_force_divisor_push", 2000f, CVar.SERVERONLY);
 
         /// <summary>
         ///     The maximum velocity (not force) that may be applied to an object by atmospheric pressure differences.
@@ -1098,7 +1098,7 @@ namespace Content.Shared.CCVar
         ///     1.0 for instant spacing, 0.2 means 20% of remaining air lost each time
         /// </summary>
         public static readonly CVarDef<float> AtmosSpacingEscapeRatio =
-            CVarDef.Create("atmos.mmos_spacing_speed", 0.05f, CVar.SERVERONLY);
+            CVarDef.Create("atmos.mmos_spacing_speed", 0.4f, CVar.SERVERONLY);
 
         /// <summary>
         ///     Minimum amount of air allowed on a spaced tile before it is reset to 0 immediately in kPa

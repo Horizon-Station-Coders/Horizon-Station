@@ -67,3 +67,10 @@
   description: trait-snoring-desc
   components:
     - type: Snoring
+
+#- type: trait
+#  id: FrontalLisp
+#  name: trait-frontal-lisp-name
+#  description: trait-frontal-lisp-desc
+#  components:
+#    - type: FrontalLisp

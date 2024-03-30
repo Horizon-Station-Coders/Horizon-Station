@@ -78,8 +78,8 @@
 - type: entity
   id: CrateMaterialPlasma
   parent: CratePlasma
-  name: solid plasma crate
-  description: 90 sheets of plasma.
+  name: solid phoron crate
+  description: 90 sheets of phoron.
   components:
   - type: StorageFill
     contents:

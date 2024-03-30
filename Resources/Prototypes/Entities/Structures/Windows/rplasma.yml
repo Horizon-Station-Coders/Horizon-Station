@@ -1,6 +1,6 @@
 - type: entity
   id: ReinforcedPlasmaWindow
-  name: reinforced plasma window
+  name: reinforced phoron window
   parent: Window
   components:
   - type: Sprite
@@ -59,7 +59,7 @@
 - type: entity
   id: PlasmaReinforcedWindowDirectional
   parent: WindowDirectional
-  name: directional reinforced plasma window
+  name: directional reinforced phoron window
   description: Don't smudge up the glass down there.
   placement:
     mode: SnapgridCenter

@@ -101,7 +101,7 @@
       spawnGas: CarbonDioxide
 
 - type: entity
-  name: plasma gas miner
+  name: phoron gas miner
   parent: GasMinerBase
   id: GasMinerPlasma
   placement:

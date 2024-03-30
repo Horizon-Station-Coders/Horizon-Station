@@ -19,13 +19,13 @@
 - type: entity
   id: WindoorPlasma
   parent: BasePlasmaWindoor
-  name: Plasma Windoor
+  name: Phoron Windoor
   description: It's a pink window *and* a sliding door. Amazing!
 
 - type: entity
   id: WindoorSecurePlasma
   parent: BaseSecurePlasmaWindoor
-  name: Secure Plasma Windoor
+  name: Secure Phoron Windoor
   description: It's a sturdy purple window *and* a sliding door. Spectacular!
 
 - type: entity
@@ -94,7 +94,7 @@
 - type: entity
   parent: WindoorPlasma
   id: PlasmaWindoorJanitorLocked
-  suffix: Janitor, Locked, Plasma
+  suffix: Janitor, Locked, Phoron
   components:
   - type: AccessReader
     access: [["Janitor"]]
@@ -193,7 +193,7 @@
 - type: entity
   parent: WindoorSecurePlasma
   id: PlasmaWindoorSecureChemistryLocked
-  suffix: Chemistry, Locked, Plasma
+  suffix: Chemistry, Locked, Phoron
   components:
   - type: AccessReader
     access: [["Chemistry"]]
@@ -209,7 +209,7 @@
 - type: entity
   parent: WindoorSecurePlasma
   id: PlasmaWindoorSecureCentralCommandLocked
-  suffix: Central Command, Locked, Plasma
+  suffix: Central Command, Locked, Phoron
   components:
   - type: AccessReader
     access: [["CentralCommand"]]
@@ -249,7 +249,7 @@
 - type: entity
   parent: WindoorSecurePlasma
   id: PlasmaWindoorSecureEngineeringLocked
-  suffix: Engineering, Locked, Plasma
+  suffix: Engineering, Locked, Phoron
   components:
   - type: AccessReader
     access: [["Engineering"]]
@@ -281,7 +281,7 @@
 - type: entity
   parent: WindoorSecurePlasma
   id: PlasmaWindoorSecureJanitorLocked
-  suffix: Janitor, Locked, Plasma
+  suffix: Janitor, Locked, Phoron
   components:
   - type: AccessReader
     access: [["Janitor"]]
@@ -337,7 +337,7 @@
 - type: entity
   parent: WindoorSecurePlasma
   id: PlasmaWindoorSecureScienceLocked
-  suffix: Science, Locked, Plasma
+  suffix: Science, Locked, Phoron
   components:
   - type: AccessReader
     access: [["Research"]]

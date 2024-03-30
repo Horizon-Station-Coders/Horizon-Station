@@ -59,7 +59,7 @@
               amount: 2
               doAfter: 1
             - tag: PlasmaGlassShard
-              name: Plasma Glass Shard
+              name: Phoron Glass Shard
               icon:
                 sprite: Objects/Materials/Shards/shard.rsi
                 state: shard1

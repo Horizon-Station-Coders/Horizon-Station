@@ -324,13 +324,13 @@
     - !type:TileNotBlocked
 
 - type: construction
-  name: plasma glass table
+  name: phoron glass table
   id: TablePlasmaGlass
   graph: Table
   startNode: start
   targetNode: TablePlasmaGlass
   category: construction-category-furniture
-  description: A square piece of plasma glass, standing on four metal legs. Pretty!
+  description: A square piece of phoron glass, standing on four metal legs. Pretty!
   icon:
     sprite: Structures/Furniture/Tables/plasma.rsi
     state: full
@@ -717,7 +717,7 @@
   canBuildInImpassable: false
   conditions:
     - !type:TileNotBlocked
-    
+
 - type: construction
   id: CurtainsBlack
   name: black curtains
@@ -733,7 +733,7 @@
   placementMode: SnapgridCenter
   canBuildInImpassable: false
   conditions:
-    - !type:TileNotBlocked  
+    - !type:TileNotBlocked
 
 - type: construction
   id: CurtainsBlue
@@ -750,8 +750,8 @@
   placementMode: SnapgridCenter
   canBuildInImpassable: false
   conditions:
-    - !type:TileNotBlocked  
-    
+    - !type:TileNotBlocked
+
 - type: construction
   id: CurtainsCyan
   name: cyan curtains
@@ -768,7 +768,7 @@
   canBuildInImpassable: false
   conditions:
     - !type:TileNotBlocked
-    
+
 - type: construction
   id: CurtainsGreen
   name: green curtains
@@ -785,7 +785,7 @@
   canBuildInImpassable: false
   conditions:
     - !type:TileNotBlocked
-    
+
 - type: construction
   id: CurtainsOrange
   name: orange curtains
@@ -802,7 +802,7 @@
   canBuildInImpassable: false
   conditions:
     - !type:TileNotBlocked
-    
+
 - type: construction
   id: CurtainsPink
   name: pink curtains
@@ -819,7 +819,7 @@
   canBuildInImpassable: false
   conditions:
     - !type:TileNotBlocked
-    
+
 - type: construction
   id: CurtainsPurple
   name: purple curtains
@@ -836,7 +836,7 @@
   canBuildInImpassable: false
   conditions:
     - !type:TileNotBlocked
-    
+
 - type: construction
   id: CurtainsRed
   name: red curtains
@@ -852,7 +852,7 @@
   placementMode: SnapgridCenter
   canBuildInImpassable: false
   conditions:
-    - !type:TileNotBlocked    
+    - !type:TileNotBlocked
 
 - type: construction
   id: CurtainsWhite

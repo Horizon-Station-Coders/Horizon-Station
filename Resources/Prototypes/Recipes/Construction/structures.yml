@@ -86,7 +86,7 @@
   canRotate: false
   canBuildInImpassable: false
   conditions:
-    - !type:TileNotBlocked    
+    - !type:TileNotBlocked
 
 - type: construction
   name: clock wall
@@ -179,7 +179,7 @@
     - !type:TileNotBlocked
 
 - type: construction
-  name: plasma wall
+  name: phoron wall
   id: PlasmaWall
   graph: Girder
   startNode: start
@@ -451,7 +451,7 @@
   placementMode: SnapgridCenter
 
 - type: construction
-  name: plasma window
+  name: phoron window
   id: PlasmaWindow
   graph: Window
   startNode: start
@@ -470,7 +470,7 @@
   canRotate: false
 
 - type: construction
-  name: reinforced plasma window
+  name: reinforced phoron window
   id: ReinforcedPlasmaWindow
   graph: Window
   startNode: start
@@ -489,7 +489,7 @@
   canRotate: false
 
 - type: construction
-  name: diagonal plasma window
+  name: diagonal phoron window
   id: PlasmaWindowDiagonal
   graph: WindowDiagonal
   startNode: start
@@ -507,7 +507,7 @@
   placementMode: SnapgridCenter
 
 - type: construction
-  name: diagonal reinforced plasma window
+  name: diagonal reinforced phoron window
   id: ReinforcedPlasmaWindowDiagonal
   graph: WindowDiagonal
   startNode: start
@@ -579,7 +579,7 @@
   placementMode: SnapgridCenter
 
 - type: construction
-  name: directional plasma window
+  name: directional phoron window
   id: PlasmaWindowDirectional
   graph: WindowDirectional
   startNode: start
@@ -597,7 +597,7 @@
   placementMode: SnapgridCenter
 
 - type: construction
-  name: directional reinforced plasma window
+  name: directional reinforced phoron window
   id: PlasmaReinforcedWindowDirectional
   graph: WindowDirectional
   startNode: start
@@ -1107,7 +1107,7 @@
   startNode: start
   targetNode: windoor
   category: construction-category-structures
-  description: It opens, it closes, and you can see through it! And it can be made of Plasma, Uranium, or normal Glass!
+  description: It opens, it closes, and you can see through it! And it can be made of Phoron, Uranium, or normal Glass!
   icon:
     sprite: Structures/Doors/Windoors/windoor.rsi
     state: closed
@@ -1124,7 +1124,7 @@
   startNode: start
   targetNode: windoorSecure
   category: construction-category-structures
-  description: It's tough, it's a door, and you can see through it! And it can be made of Plasma, Uranium, or normal Glass!
+  description: It's tough, it's a door, and you can see through it! And it can be made of Phoron, Uranium, or normal Glass!
   icon:
     sprite: Structures/Doors/Windoors/windoor.rsi
     state: closed
@@ -1262,7 +1262,7 @@
     - !type:TileNotBlocked
 
 - type: construction
-  name: plasma door
+  name: phoron door
   id: PlasmaDoor
   graph: DoorGraph
   startNode: start

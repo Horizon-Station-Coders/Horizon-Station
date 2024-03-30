@@ -136,7 +136,7 @@
 
 - type: entity
   id: PlasmaDoor
-  name: plasma door
+  name: phoron door
   parent: BaseMaterialDoorNavMap
   description: A door, where will it lead?
   components:

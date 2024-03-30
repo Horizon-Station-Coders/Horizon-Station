@@ -1,6 +1,6 @@
 ﻿- type: entity
   id: FloorLiquidPlasmaEntity
-  name: liquid plasma
+  name: liquid phoron
   description: Sweet, expensive nectar. Don't consume.
   placement:
     mode: SnapgridCenter

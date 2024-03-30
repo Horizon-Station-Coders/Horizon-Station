@@ -38,7 +38,7 @@ marking-MothAntennasOakworm-oakworm = Antennae
 marking-MothAntennasOakworm = Antennae (Oak Worm)
 
 marking-MothAntennasPlasmafire-plasmafire = Antennae
-marking-MothAntennasPlasmafire = Antennae (Plasmafire)
+marking-MothAntennasPlasmafire = Antennae (Phoronfire)
 
 marking-MothAntennasRoyal-royal = Antennae
 marking-MothAntennasRoyal = Antennae (Royal)
@@ -106,7 +106,7 @@ marking-MothWingsOakworm = Wings (Oak Worm)
 
 marking-MothWingsPlasmafire-plasmafire_primary = Primary
 marking-MothWingsPlasmafire-plasmafire_secondary = Secondary
-marking-MothWingsPlasmafire = Wings (Plasmafire)
+marking-MothWingsPlasmafire = Wings (Phoronfire)
 
 marking-MothWingsPointy-pointy = Wing
 marking-MothWingsPointy = Wings (Pointy)
@@ -220,7 +220,7 @@ marking-MothRArmFirewatch = Moth Right Arm (Firewatch)
 marking-MothChestGothic-gothic_chest = Chest
 marking-MothChestGothic = Moth Chest (Gothic)
 
-marking-MothHeadGothic-gothic_head = Head 
+marking-MothHeadGothic-gothic_head = Head
 marking-MothHeadGothic = Moth Head (Gothic)
 
 marking-MothLLegGothic-gothic_l_leg = Left Leg

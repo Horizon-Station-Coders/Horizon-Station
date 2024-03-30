@@ -644,7 +644,7 @@
       entityType: PlasmaWindowDirectional
   assignments:
   - 5: 3
-  name: PlasmaWindowDirectional
+  name: PhoronWindowDirectional
 - action: !type:InstantActionComponent
     icon:
       entity: Railing

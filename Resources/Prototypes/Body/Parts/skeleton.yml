@@ -52,7 +52,7 @@
       context: "human"
     - type: Speech
       speechVerb: Skeleton
-    - type: SkeletonAccent
+#    - type: SkeletonAccent
     - type: Actions
     - type: Vocal
       sounds:

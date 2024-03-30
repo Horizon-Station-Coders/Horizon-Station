@@ -25,7 +25,7 @@
       amount: 5
   - type: Inventory
     speciesId: reptilian
-  - type: LizardAccent
+#  - type: LizardAccent
   - type: Speech
     speechSounds: Lizard
     speechVerb: Reptilian

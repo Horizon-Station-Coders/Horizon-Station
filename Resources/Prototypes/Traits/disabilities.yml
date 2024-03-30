@@ -37,15 +37,15 @@
       sounds:
         collection: Paracusia
 
-- type: trait
-  id: Muted
-  name: trait-muted-name
-  description: trait-muted-desc
-  blacklist:
-    components:
-      - BorgChassis
-  components:
-    - type: Muted
+#- type: trait
+#  id: Muted
+#  name: trait-muted-name
+#  description: trait-muted-desc
+#  blacklist:
+#    components:
+#      - BorgChassis
+#  components:
+#    - type: Muted
 
 - type: trait
   id: Uncloneable
@@ -54,9 +54,9 @@
   components:
     - type: Uncloneable
 
-- type: trait
-  id: FrontalLisp
-  name: trait-frontal-lisp-name
-  description: trait-frontal-lisp-desc
-  components:
-    - type: FrontalLisp
+#- type: trait
+#  id: FrontalLisp
+#  name: trait-frontal-lisp-name
+#  description: trait-frontal-lisp-desc
+#  components:
+#    - type: FrontalLisp

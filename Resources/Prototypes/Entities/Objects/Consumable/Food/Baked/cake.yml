@@ -673,7 +673,7 @@
     description: ghost-role-information-Cak-description
     rules: ghost-role-information-Cak-rules
   - type: GhostTakeoverAvailable
-  - type: OwOAccent
+#  - type: OwOAccent
   - type: Speech
     speechSounds: Cat
     speechVerb: SmallMob

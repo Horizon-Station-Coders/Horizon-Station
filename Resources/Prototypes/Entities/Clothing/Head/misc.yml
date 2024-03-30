@@ -164,8 +164,8 @@
     sprite: Clothing/Head/Misc/fancycrown.rsi
   - type: MobPrice
     price: 3000
-  - type: AddAccentClothing
-    accent: MobsterAccent
+#  - type: AddAccentClothing
+#    accent: MobsterAccent
 
 - type: entity
   parent: ClothingHeadBase
@@ -180,8 +180,8 @@
     sprite: Clothing/Head/Hats/catears.rsi
   - type: Clothing
     sprite: Clothing/Head/Hats/catears.rsi
-  - type: AddAccentClothing
-    accent: OwOAccent
+#  - type: AddAccentClothing
+#    accent: OwOAccent
 
 - type: entity
   parent: ClothingHeadBase
@@ -194,8 +194,8 @@
     sprite: Clothing/Head/Hats/dogears.rsi
   - type: Clothing
     sprite: Clothing/Head/Hats/dogears.rsi
-  - type: AddAccentClothing
-    accent: BarkAccent
+#  - type: AddAccentClothing
+#    accent: BarkAccent
 
 - type: entity
   parent: ClothingHeadBase

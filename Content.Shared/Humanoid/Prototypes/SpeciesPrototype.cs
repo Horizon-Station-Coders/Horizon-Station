@@ -99,27 +99,63 @@ public sealed partial class SpeciesPrototype : IPrototype
     /// <summary>
     ///     Characters younger than this are too young to be hired by Nanotrasen.
     /// </summary>
-    [DataField]
+    [DataField("minAge")]
     public int MinAge = 18;
 
     /// <summary>
     ///     Characters younger than this appear young.
     /// </summary>
-    [DataField]
+    [DataField("youngAge")]
     public int YoungAge = 30;
 
     /// <summary>
     ///     Characters older than this appear old. Characters in between young and old age appear middle aged.
     /// </summary>
-    [DataField]
+    [DataField("oldAge")]
     public int OldAge = 60;
 
     /// <summary>
     ///     Characters cannot be older than this. Only used for restrictions...
     ///     although imagine if ghosts could age people WYCI...
     /// </summary>
-    [DataField]
+    [DataField("maxAge")]
     public int MaxAge = 120;
+
+    /// <summary>
+    /// The minimum height for this species
+    /// </summary>
+    [DataField("minHeight")]
+    public float MinHeight = 0.87f; // Horizon - our baseline
+
+    /// <summary>
+    /// The maximum height for this species
+    /// </summary>
+    [DataField("maxHeight")]
+    public float MaxHeight = 1.16f; // Horizon - our baseline
+
+    /// <summary>
+    /// The default height for this species
+    /// </summary>
+    [DataField("defaultHeight")]
+    public float DefaultHeight = 1f;
+
+    /// <summary>
+    /// The default width for this species
+    /// </summary>
+    [DataField("defaultWidth")]
+    public float DefaultWidth = 1f;
+
+    /// <summary>
+    /// Whether to scale horizontally or not
+    /// </summary>
+    [DataField("scaleWidth")]
+    public bool ScaleWidth = true;
+
+    /// <summary>
+    /// Whether to scale vertically or not
+    /// </summary>
+    [DataField("scaleHeight")]
+    public bool ScaleHeight = true;
 
     /// <summary>
     ///     The Style used for the guidebook info link in the character profile editor

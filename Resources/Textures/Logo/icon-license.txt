@@ -1,4 +1,12 @@
-The files below are licensed under CC-BY-SA 4.0 by the author who can be found at https://leonardo-dabepis.tumblr.com/
+Created by the Stardust Reverie Collection
+for Horizon Station
+
+// horizonstation.org //
+
+Font: SAIBA-45 by Formless Labs, licensed under GPL3
+https://github.com/YuurinBee/SAIBA-45/tree/main
+
+The files below are licensed under CC-BY-SA 4.0 for Horizon Station:
 
 icon.ico
 icon.svg
@@ -11,4 +19,4 @@ icon/icon-128x128.png
 icon/icon-256x256.png
 logo.svg
 logo.png
-slashlogo.png
+splashlogo.png

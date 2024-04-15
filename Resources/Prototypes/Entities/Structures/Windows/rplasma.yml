@@ -1,7 +1,7 @@
 - type: entity
   id: ReinforcedPlasmaWindow
   name: reinforced phoron window
-  parent: Window
+  parent: WindowRCDResistant
   components:
   - type: Sprite
     drawdepth: WallTops
@@ -58,8 +58,8 @@
 
 - type: entity
   id: PlasmaReinforcedWindowDirectional
-  parent: WindowDirectional
   name: directional reinforced phoron window
+  parent: WindowDirectionalRCDResistant
   description: Don't smudge up the glass down there.
   placement:
     mode: SnapgridCenter

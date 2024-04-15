@@ -1,7 +1,7 @@
 - type: entity
   id: PlasmaWindow
   name: phoron window
-  parent: Window
+  parent: WindowRCDResistant
   components:
   - type: Sprite
     drawdepth: WallTops
@@ -55,8 +55,8 @@
 
 - type: entity
   id: PlasmaWindowDirectional
-  parent: WindowDirectional
   name: directional phoron window
+  parent: WindowDirectionalRCDResistant
   description: Don't smudge up the glass down there.
   placement:
     mode: SnapgridCenter
